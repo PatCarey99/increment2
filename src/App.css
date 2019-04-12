@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@font-face { font-family: 'DINOT-Regular'; src: url('/fonts/DINOT-Regular.eot'); src: local('☺'), url('/fonts/DINOT-Regular.woff') format('woff'), url('/fonts/DINOT-Regular.ttf') format('truetype'), url('/fonts/DINOT-Regular.svg') format('svg'); font-weight: normal; font-style: normal; }
+
+h1{
+  font-display: Dinot;
+  font-size: 3.5rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+h2{
+  font-family: 'DINOT-Regular', sans-serif;
+  font-size: 2.8rem;
+  font-weight: 400;
+  margin-top: 100px;
+}
+
+h4{
+  font-family: "Open Sans";
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+body {
+  font-family: 'Open Sans',serif;
+  
+  font-size: 1rem;
+  font-weight: 200;
+  text-align: center;
+  color: #39303b;
+}
+.list {
+  font-family: "Open Sans";
+  font-size: 3.5rem;
+  font-weight: 400;
+}
+p{
+  margin-bottom: 10px;
+}
+
+.incrementer{
+  
+}
+
+
+
+
+
+
+
+
+.btn-back{
+  background-color: #f54255;
+  width:42%;
+  color: #fff;
+  padding: 5px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-family: sans-serif;
+  font-size: 1.7rem;
+  font-weight: 200;
+  border-radius: 5px;
+}
+
+.btn-next{
+  background-color: #f54255;
+  color: #fff;
+  width: 42%;
+  padding: 5px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-family: sans-serif;
+  font-size: 1.7rem;
+  font-weight: 200;
+  border-radius: 5px;
+}
+
+
+/*
+H1	    DINOT-Medium	3.5rem	medium	400
+H2	    DINOT-Medium	2.8rem	medium	400
+h4	    "Open Sans"	    0.8rem	bold	700
+body	  "Open Sans"	    1rem	  regular	200
+list	  "Open Sans"	    1rem	  regular	200
+buttons	"Open Sans"	    1.7rem	regular	200
+*/
